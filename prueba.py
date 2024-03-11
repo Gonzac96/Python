@@ -7,7 +7,7 @@ x = 1
 if x > 5:
     print("x es grande")
 else:
-    print("x es bajito")
+    print("x es bajito\n")
     print("muy bajito")
 
 for i in range(5):
