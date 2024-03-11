@@ -17,3 +17,5 @@ contador = 0
 while contador < 3:
     print("Contador:", contador)
     contador += 1  # Incrementa el contador en 1 en cada iteración
+
+#Comentario para probar un commit
