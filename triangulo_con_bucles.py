@@ -8,10 +8,14 @@ Además, el triángulo debe estar alineado al centro, lo que significa que la mi
 def print_triangle(size, character):
     triangle = ''
     for i in range(size):
+        #Hace las separaciones necesarias para dejar al caracter/los caracteres en el medio
         triangle += " " * (size - i - 1)
+        
         triangle += character + character * (2 * i)
         if i != size - 1:
             triangle += "\n"
     return print(triangle)
 
-print_triangle(5, "+")
+tamaño = int(input("Ingrese cuantas filas tendrá el triangulo equilatero: "))
+caracter = input("Ingrese un caracter para construir el triangulo: ")
+print_triangle(tamaño, caracter)

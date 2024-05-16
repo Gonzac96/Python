@@ -24,5 +24,8 @@ def is_leap_year(year):
     return False
        
 
-bisiesto = is_leap_year(2024)
-print(bisiesto)
+bisiesto = int(input("Ingrese un año : "))
+if is_leap_year(bisiesto):
+   print("El año ingresado es bisiesto")
+else:
+   print("El año ingresado no es bisiesto")

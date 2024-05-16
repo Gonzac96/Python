@@ -10,4 +10,8 @@ def calculate_tip(bill_amount, tipPercentage):
    s = (bill_amount*tipPercentage)/100
    return round(s, 2)
 
-print(calculate_tip(851.7894, 10))
+bill = float(input("Ingrese el valor de lo que haya consumido: "))
+
+tip = float(input("Ingrese el porcentaje de propina que desea dejar: "))
+
+print(calculate_tip(bill, tip))
