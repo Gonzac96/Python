@@ -29,3 +29,9 @@ if is_leap_year(bisiesto):
    print("El año ingresado es bisiesto")
 else:
    print("El año ingresado no es bisiesto")
+
+#Para que devuelva solamente True or False
+"""
+bisiesto = int(input("Ingrese un año : "))
+print(is_leap_year(bisiesto))
+"""

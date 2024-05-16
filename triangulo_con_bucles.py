@@ -10,8 +10,9 @@ def print_triangle(size, character):
     for i in range(size):
         #Hace las separaciones necesarias para dejar al caracter/los caracteres en el medio
         triangle += " " * (size - i - 1)
-        
+        #Suma la cantidad de caracteres necesarios para la fila
         triangle += character + character * (2 * i)
+        #Si no es la ultima fila, aplica el salto de linea
         if i != size - 1:
             triangle += "\n"
     return print(triangle)
