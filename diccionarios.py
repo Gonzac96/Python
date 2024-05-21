@@ -1,4 +1,4 @@
-"""
+"""     OBTEN EL PROMEDIO DE LOS ESTUDIANTES
 En este desafío, deberás calcular el promedio general de una clase, así como el promedio individual de cada estudiante.
 
 Para ello, se te proporcionará una lista de diccionarios, cada uno de los cuales representará a un estudiante y tendrá las siguientes propiedades:

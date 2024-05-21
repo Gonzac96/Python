@@ -1,4 +1,4 @@
-"""
+"""     OBTEN LA INFORMACION DE LOS PAQUETES
 En este desafío, te encuentras trabajando para una empresa de transporte de carga que necesita llevar un registro de los paquetes que se envían en cada viaje. 
 Para ello, se te proporcionará una lista de tuplas, cada una de las cuales representará un paquete y tendrá las siguientes propiedades:
 (id, weight, destination)
